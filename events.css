@@ -1,0 +1,36 @@
+body {
+	/*background-color: red;*/
+}
+
+.make-blue {
+	color: blue;
+}
+
+.make-large {
+	font-size: 10em;
+}
+
+.add-border {
+	border: 5px solid black;
+}
+
+.add-rounding {
+	border-radius: 15px;
+}
+
+
+/*The first section's text should be bold.*/
+#first-section {
+	font-weight: bold;
+}
+
+/*The last section's text should be bold and italicized.*/
+#last-section {
+	font-weight: bold;
+	font-style: italic;
+}
+
+/*Make the buttons stop appearing next to each other as inline elements. Change them into block elements.*/
+button {
+	display: block;
+}
